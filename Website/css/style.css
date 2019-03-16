@@ -1,0 +1,29 @@
+/* Оформление панели навигации */
+body {
+    padding: 25px; /* отступ от панели навигации */
+    
+}
+
+    
+    .p{font-family: 'Philosopher:400', sans-serif; /* установка шрифта для названия вида спорта */}
+    .n{font-family: 'Press Start 2P', cursive; /* установка основного шрифта  */}
+	.l{font-family: 'Lobster', sans-serif; /* установка шрифта для всех заголовков  */}
+    
+
+/* Оформление слайдшоу */
+/* carousel-example-generic - это id блока со слайдшоу */
+
+#carousel-example-generic {
+    overflow: hidden; /* Если картинка больше нужной ширины, то она будет скрыта */
+    margin: 0 auto; /* Выравнивание слайдшоу по центру */
+}
+
+#carousel-example-generic .item {
+    max-height: 235px; /* Максимальная высота слайдшоу в пикселях */
+}
+
+#carousel-example-generic img {
+    max-height: 100%; /* Максимальная высота 100%, для того, чтобы изображения было такой же высоты как слайд */
+    margin: 0 auto; /* Выравнивание изображения по центру */
+	
+}
